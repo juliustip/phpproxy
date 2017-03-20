@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 //SSL Verification disabled due to PHP 7.0 inability to verify some ssl cert
 $arrContextOptions=array(
     "ssl"=>array(
